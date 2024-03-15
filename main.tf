@@ -2,14 +2,14 @@
 
 
 
-data "doormat_aws_credentials" "creds" {
-  provider = doormat
-  role_arn = var.role_arn
-}
+# data "doormat_aws_credentials" "creds" {
+#   provider = doormat
+#   role_arn = var.role_arn
+# }
 
-variable "role_arn" {
-  type = string
-}
+# variable "role_arn" {
+#   type = string
+# }
 
 variable "region" {
   type = string
